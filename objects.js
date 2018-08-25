@@ -2,6 +2,7 @@ var playlist = {'der': 'fre'};
 
 function updatePlayList(playlist, artist, song) {
   playlist[artist] = song;
+  return playlist;
 }
 
 function removeFromPlaylist(playlist, artist) {
