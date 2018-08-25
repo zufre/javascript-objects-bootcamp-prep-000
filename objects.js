@@ -1,4 +1,4 @@
-var playlist = {};
+var playlist = {'der' = 'fre'};
 
 function updatePlayList(playlist, artist, song) {
   playlist[artist] = song;
